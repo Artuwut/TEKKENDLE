@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEKKENDLE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+    
+<body>
+    <div class="container">
+        <h1>TEKKENDLE</h1>
+        <div id="box2">
+            <br>GUESS TODAY'S TEKKEN CHARACTER!<br>
+            <br>Last update: TEKKEN 8<br>
+            <br>Type any Character to begin.
+            <input list="charactersList" id="inputBox" placeholder="Jin Kazama, Kazuya Mishi...">
+            <datalist id="charactersList"></datalist>
+        </div>
+            <div id="rowsContainer">
+                <table id="charactersTable">
+                    <thead class="hidden">
+                        <tr>
+                            <th>Image</th>
+                            <th>Fighting Style</th>
+                            <th>Origin</th>
+                            <th>Species</th>
+                            <th>Gender</th>
+                            <th>Status</th>
+                            <th>Height</th>
+                            <th>Weight</th>
+                            <th>First Appearance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Rows will be appended here -->
+                    </tbody>
+                </table>
+            </div> 
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
